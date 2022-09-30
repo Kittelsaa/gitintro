@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Jost:wght@500&display=swap');
+html{
+    background-image: url(../images/pex.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-width: 1440px;
+    min-height: 1224px;
+    padding: 0%;
+    margin: 0px;
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    min-width: 1440px;
+    min-height: 1224px;
+}
+.navbar{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1536px;
+    height: 88px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    box-shadow: inset 0px 4px 4px;
+}
+.navbar h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 58px;
+    position: absolute;
+    width: 174px;
+    height: 46px;
+    left: 103px;
+    top: 14px;
+    margin: 0%;
+}
+.navbar h2{
+    color: rgb(56, 209, 252,1);
+    font-size: 52px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 63px;
+    position: absolute;
+    width: 141px;
+    height: 44px;
+    left: 277px;
+    top: 11px;
+    margin: 0%;
+}
+.navbar img{
+    top: 15px;
+    left: 1103px;
+    position: absolute;
+    width: 50px;
+    height: 48px;
+    border-radius: 50%;
+    border: 4px solid #9A8193;
+}
+.navbar h4{
+    color: #e5e5e5;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 34px;
+    position: absolute;
+    width: 186px;
+    height: 33px;
+    left: 1169px;
+    top: 15px;
+    margin: 0%;
+}
+.navbar h5{
+    color: #e5e5e5;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 22px;
+    position: absolute;
+    width: 118px;
+    height: 21px;
+    left: 1169px;
+    top: 45px;
+    margin: 0%;
+}
+.navbar i{
+    position: absolute;
+    color: rgb(229, 229, 229,1);
+    width: 27px;
+    height: 10px;
+    left: 1355px;
+    top: 34px;
+    font-size: 24px;
+}
+
+.info{
+    position: absolute;
+    left: 0px;
+    top: 88px;
+    width: 293px;
+    height: 1136px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    box-shadow: inset 0px 4px 4px rgb(0, 0, 0,0.25);
+}
+.info #l{
+    position: absolute;
+    color: rgb(229, 229, 229, 1);
+    width: 18px;
+    height: 14px;
+    left: 30px;
+    top: 1030px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.info #lo{
+    position: absolute;
+    color: white;
+    float: right;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    width: 237px;
+    height: 14px;
+    top: 1030px;
+    left: 52px;
+    margin: 0px;
+}
+.info #m{
+    position: absolute;
+    color: rgb(229, 229, 229, 1);
+    width: 18px;
+    height: 14px;
+    left: 30px;
+    top: 1070px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.info #ma{
+    position: absolute;
+    color: white;
+    float: right;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    width: 237px;
+    height: 21px;
+    top: 1068px;
+    left: 55px;
+    margin: 0px;
+} 
+
+.my i{
+    position: absolute;
+    width: 27.6px;
+    height: 26px;
+    top: 137px;
+    left: 78px;
+    color: #e5e5e5;
+}
+.my a{
+    position: absolute;
+    width: 231px;
+    height: 69px;
+    left: 103px;
+    top: 130px;
+    justify-items: center;
+    border: 0px;
+    color: rgb(255, 255, 255,1);
+    padding: 0%;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;  
+}
+.up{
+    position: absolute;
+    width: 261px;
+    height: 49px;
+    left: 32px;
+    top: 181px;
+    border-radius: 25px 0px 0px 25px;
+    background-color: #e5e5e5;
+
+}
+.up a{
+    position: absolute;
+    top: 10px;
+    left: 71px;
+    width: 106px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+    text-decoration: none;
+}
+.up i{
+    position: absolute;
+    top: 18px;
+    left: 45px;
+    width: 27.6px;
+    height: 23px;
+    color: rgb(0, 0, 0);
+}
+.acc i{
+    position: absolute;
+    width: 27.6px;
+    height: 26px;
+    top: 259px;
+    left: 75px;
+    color: #e5e5e5;
+}
+.acc a{
+    position: absolute;
+    width: 231px;
+    height: 69px;
+    left: 107px;
+    top: 251px;
+    justify-items: center;
+    border: 0px;
+    color: rgb(255, 255, 255,1);
+    padding: 0%;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+
+.update{
+    background-color: rgba(0, 0, 0, 0.317);
+    position: absolute;
+    width: 1243px;
+    height: 1136px;
+    left: 293px;
+    top: 88px;
+}
+.box1{
+    position: absolute;
+    width: 1037px;
+    height: 610px;
+    left: 70px;
+    top: 94px;
+    background-color: #d9d9d9;
+}
+.intro{
+    position: absolute;
+    width: 1037px;
+    height: 110px;
+    border-bottom: 1px solid #9A8193;
+}
+.intro h1{
+    left: 81px;
+    top: 17px;
+    width: 188px;
+    height: 32px;
+    color: #9A8193;
+    position: absolute;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+}
+.intro h5{
+    float: right;
+    color: #9A8193;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+.intro #plus{
+    position: absolute;
+    width: 16px;
+    height: 13.37px;
+    top: 42px;
+    left: 714px;
+}
+.intro #add{
+    position: absolute;
+    top: 11px;
+    left: 736px;
+    width: 80px;
+    height: 23px;
+}
+.intro #comp{
+    position: absolute;
+    width: 21px;
+    height: 12.77px;
+    top: 42px;
+    left: 830px;
+}
+.intro #deve{
+    position: absolute;
+    top: 11px;
+    left: 854px;
+    width: 150px;
+    height: 19px;
+}
+.intro #design{
+    position: absolute;
+    width: 21px;
+    height: 14.9px;
+    top: 70px;
+    left: 830px;
+}
+.intro #desi{
+    position: absolute;
+    top: 40px;
+    left: 854px;
+    width: 100px;
+    height: 21px;
+}
+.task{
+    position: absolute;
+    top: 170px;
+    left: 57px;
+    width: 920px;
+    height: 32px;
+    border: 1px solid #9A8193;
+    display: flex;
+}
+.task .who{
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.task .who #com{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.task .who #des{
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+.task .text{
+    border-left: 1px solid #9A8193;
+    border-right: 1px solid #9A8193;
+    margin: 0px;
+    width: 790px;
+}
+.task .text p{
+    top: 8px;
+    margin: 0px;
+    position: absolute;
+}
+.task .check{
+    width: 80px;
+}
+.task .check #yes{
+    position: absolute;
+    top: 10px;
+    left: 845px;
+    width: 19.56px;
+    height: 14.49px;
+}
+.task .check #no{
+    position: absolute;
+    top: 10px;
+    left: 865px;
+    width: 19.56px;
+    height: 14.49px;
+}
+.task .check #pen{
+    position: absolute;
+    top: 10px;
+    left: 882px;
+    width: 17px;
+    height: 14px;
+}
+.task .check #delete{
+    position: absolute;
+    top: 10px;
+    left: 902px;
+    width: 17px;
+    height: 14px;
+}
+#two{
+    position: absolute;
+    top: 220px;
+}
+#three{
+    position: absolute;
+    top: 270px;
+}
+#four{
+    position: absolute;
+    top: 320px;
+}
+#five{
+    position: absolute;
+    top: 370px;
+}
+#six{
+    position: absolute;
+    top: 420px;
+}
+#seven{
+    position: absolute;
+    top: 470px;
+}
+#eight{
+    position: absolute;
+    top: 520px;
+}
+
+
+.box2{
+    position: absolute;
+    width: 380px;
+    height: 290px;
+    left: 723px;
+    top: 790px;
+    background-color: #e5e5e5;
+    border-radius: 30px;
+}
+.box2 h3{
+    position: absolute;
+    color: #63495b;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+.box2 input{
+     background-color: #d9d9d9;
+     border: none;
+     width: 180px;
+     height: 30px;
+}
+.box2 #team h3{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    margin: 0px;
+}
+.box2 #team input{
+    position: absolute;
+    float: right;
+    top: 40px;
+    left: 150px;
+}
+.box2 #task h3{
+    position: absolute;
+    left: 40px;
+    top: 101px;
+    margin: 0px;
+}
+.box2 #task input{
+    position: absolute;
+    float: right;
+    top: 80px;
+    left: 150px;
+    height: 70px;
+}
+.box2 #date h3{
+    position: absolute;
+    left: 40px;
+    top: 172px;
+    margin: 0px;
+}
+.box2 #date input{
+    position: absolute;
+    float: right;
+    top: 170px;
+    left: 150px;
+}
+.box2 button{
+    position: absolute;
+    background-color: rgb(195, 160, 185,1);
+    width: 100px;
+    height: 35px;
+    left: 150px;
+    top: 228px;
+    border-radius: 25px;
+    justify-items: center;
+    border: 0px;
+    color: rgb(229, 229, 229,1);
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 29px;
+    padding: 0%;
+    color: rgb(229, 229, 229, 1);
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
+.box3{
+    position: absolute;
+    width: 370px;
+    height: 120px;
+    left: 180px;
+    top: 790px;
+    background-color: #9A8193;
+    border-radius: 90px;
+}
+.box3 h2{
+    position: absolute;
+    width: 166px;
+    height: 78px;
+    left: 160px;
+    top: 17px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    margin: 0px;
+}
+.box3 input{
+    position: absolute;
+    background-color: rgb(174, 159, 159);
+    width: 80px;
+    height: 50px;
+    left: 55px;
+    top: 35px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+

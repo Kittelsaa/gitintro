@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+html{
+    background-image: url(images/pex.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-width: 1440px;
+    min-height: 1224px;
+    padding: 0%;
+    margin: 0px;
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0%;
+    min-width: 1440px;
+    min-height: 1224px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.719);
+    margin: 0px;
+    padding: 0%;
+    width: 1520px;
+    height: 109px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0%;
+}
+.navbar h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 58px;
+    position: absolute;
+    width: 180px;
+    height: 38px;
+    left: 93px;
+    top: 34px;
+    margin: 0%;
+}
+.navbar h2{
+    color: rgb(56, 209, 252,1);
+    font-size: 52px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 63px;
+    position: absolute;
+    width: 155px;
+    height: 46px;
+    left: 273px;
+    top: 31px;
+    margin: 0%;
+}
+.navbar i{
+    position: absolute;
+    color: rgb(229, 229, 229, 1);
+    width: 18px;
+    height: 14px;
+    left: 1065px;
+    top: 57px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar p{
+    position: absolute;
+    color: white;
+    float: right;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    width: 237px;
+    height: 21px;
+    top: 54px;
+    left: 1090px;
+    margin: 0px;
+}
+
+.wrapper{
+    background-color: rgba(0, 0, 0, 0.719);
+    position: absolute;
+    width: 804px;
+    height: 665px;
+    left: 91px;
+    top: 237px;
+    border-radius: 40px;
+}
+.wrapper h1{
+    color: white;
+    position: absolute;
+    width: 398px;
+    height: 82px;
+    left: 150px;
+    top: 55px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    margin: 0px;
+    padding: 0%;
+    border: 0px;
+}
+#Username{
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 64px;
+    left: 177px;
+    top: 174px;
+    border-radius: 25px;
+    justify-items: center;
+}
+#Username input{
+    color: rgb(158, 128, 150, 1);
+    top: 21px;
+    left: 58px;
+    position: absolute;
+    width: 260px;
+    height: 29px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border: 0px;
+    padding: 0%;
+}
+#Username i{
+    position: absolute;
+    color: rgb(158, 128, 150,1);
+    width: 25px;
+    height: 23px;
+    left: 20px;
+    top: 21px;
+    font-size: 24px;
+}
+#password{
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 64px;
+    left: 177px;
+    top: 275px;
+    border-radius: 25px;
+    justify-items: center;
+}
+#password input{
+    color: rgb(158, 128, 150,1);
+    top: 21px;
+    left: 58px;
+    position: absolute;
+    width: 260px;
+    height: 29px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border: 0px;
+}
+#password i{
+    position: absolute;
+    color: rgb(158, 128, 150,1);
+    width: 25px;
+    height: 23px;
+    left: 20px;
+    top: 21px;
+    font-size: 24px;
+}
+button{
+    position: absolute;
+    background-color: rgb(195, 160, 185,1);
+    width: 231px;
+    height: 69px;
+    left: 174px;
+    top: 404px;
+    border-radius: 25px;
+    justify-items: center;
+    border: 0px;
+    color: rgb(229, 229, 229,1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 0%;
+}
+button a{
+    color: rgb(229, 229, 229, 1);
+    font-size: 30px;
+    text-decoration: none;
+}
+.dont{
+    color: rgb(255, 255, 255,1);
+    position: absolute;
+    width: 533px;
+    height: 55px;
+    left: 136px;
+    top: 555px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    line-height: 39px;
+}
+.dont a{
+    text-decoration: none;
+    color: rgb(255, 255, 255,1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    line-height: 39px;
+}
