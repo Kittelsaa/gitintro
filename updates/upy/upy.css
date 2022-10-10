@@ -8,7 +8,7 @@ html,body{
     padding: 0%;  
 }
 body{
-    background-image: url(../images/pex.jpeg);
+    background-image: url(../../images/pex.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -380,16 +380,30 @@ section{
 .task .check #yes{
     position: absolute;
     top: 10px;
-    left: 860px;
+    left: 845px;
     width: 19.56px;
     height: 14.49px;
 }
 .task .check #no{
     position: absolute;
     top: 10px;
-    left: 880px;
+    left: 865px;
     width: 19.56px;
     height: 14.49px;
+}
+.task .check #pen{
+    position: absolute;
+    top: 10px;
+    left: 882px;
+    width: 17px;
+    height: 14px;
+}
+.task .check #delete{
+    position: absolute;
+    top: 10px;
+    left: 902px;
+    width: 17px;
+    height: 14px;
 }
 #two{
     position: absolute;
@@ -535,5 +549,3 @@ section{
     text-align: center;
     font-size: 30px;
 }
-
-

@@ -4,46 +4,46 @@
 }
 html,body{
     margin: 0px;
-    padding: 0%;
+    padding: 0%;  
+    overflow-x: hidden;
 }
-html{
+body{
     background-image: url(images/pex.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
-    min-width: 100%px;
-    min-height: 100vh;
-}
-body{
+    background-size: cover;
     width: 100%;
+    height: 1100px;
 }
-.navbar{
-    background-color: rgba(0, 0, 0, 0.719);
+nav{
+    background-color: rgb(0, 0, 0);
     margin: 0px;
     padding: 0%;
     width: 100%;
     height: 80px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0%;
+    position: absolute; 
 }
-.navbar h1{
-    color: white;
-    font-size: 48px;
-    font-weight: 500;
+nav .logo{
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
+nav .logo h1{
+    color: rgb(229, 229, 229, 1);
+    font-size: 30px;
+    font-weight: 800;
     font-style: normal;
     font-family: 'Inter', sans-serif;
     line-height: 58px;
     position: absolute;
     width: 180px;
     height: 38px;
-    left: 93px;
-    top: 12px;
     margin: 0%;
+    top: 3px;
 }
-.navbar h2{
+nav .logo h2{
     color: rgb(56, 209, 252,1);
-    font-size: 52px;
+    font-size: 30px;
     font-weight: 800;
     font-style: normal;
     font-family: 'Inter', sans-serif;
@@ -51,52 +51,26 @@ body{
     position: absolute;
     width: 155px;
     height: 46px;
-    left: 273px;
-    top: 8px;
-    margin: 0%;
-}
-.navbar i{
-    position: absolute;
-    color: rgb(229, 229, 229, 1);
-    width: 18px;
-    height: 14px;
-    left: 1265px;
-    top: 35px;
-    font-size: 14px;
-    text-decoration: none;
-}
-.navbar p{
-    position: absolute;
-    color: white;
-    float: right;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    width: 237px;
-    height: 21px;
-    top: 30px;
-    left: 1290px;
     margin: 0px;
+    padding: 0%;
+    left: 110px;
 }
-
-.wrapper{
+main form{
     background-color: rgb(0, 0, 0);
     position: absolute;
-    width: 600px;
-    height: 600px;
-    left: 450px;
+    width: 580px;
+    height: 540px;
+    left: 720px;
     top: 237px;
     border-radius: 40px;
-    text-align: center;
+    text-align: center; 
 }
-.wrapper h1{
+main form h1{
     color: white;
     position: absolute;
     width: 398px;
     height: 82px;
-    left: 110px;
+    left: 100px;
     top: 55px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -106,14 +80,14 @@ body{
     text-align: center;
     margin: 0px;
     padding: 0%;
-    border: 0px;
+    border: 0px; 
 }
 #Username{
     position: absolute;
     background-color: white;
     width: 300px;
     height: 40px;
-    left: 167px;
+    left: 137px;
     top: 174px;
     border-radius: 25px;
     justify-items: center;
@@ -145,7 +119,7 @@ body{
     background-color: white;
     width: 300px;
     height: 40px;
-    left: 167px;
+    left: 137px;
     top: 245px;
     border-radius: 25px;
     justify-items: center;
@@ -171,47 +145,45 @@ body{
     top: 12px;
     font-size: 18px;
 }
-button{
+form button{
     position: absolute;
     background-color: rgb(195, 160, 185);
-    width: 231px;
-    height: 69px;
-    left: 167px;
+    width: 150px;
+    height: 45px;
+    left: 138px;
     top: 330px;
-    border-radius: 25px;
+    border-radius: 22px;
     justify-items: center;
     border: 0px;
-    color: rgb(229, 229, 229,1);
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
     line-height: 29px;
     padding: 0%;
 }
-button a{
-    color: rgb(229, 229, 229, 1);
-    font-size: 30px;
+form button a{
+    color: white;
+    font-size: 23px;
     text-decoration: none;
 }
-.dont{
+.last .dont{
     color: rgb(255, 255, 255,1);
     position: absolute;
-    width: 533px;
-    height: 55px;
-    left: 136px;
-    top: 555px;
+    width: 300px;
+    height: 40px;
+    left: 137px;
+    top: 400px;
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
     line-height: 39px;
 }
-.dont a{
+.last .dont a{
     text-decoration: none;
     color: rgb(255, 255, 255,1);
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
     line-height: 39px;
 }
